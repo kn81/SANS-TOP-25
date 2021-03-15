@@ -24,3 +24,34 @@
 [23]  Uncontrolled Format String 
 [24]  Integer Overflow or Wraparound 
 [25]  Use of a One-Way Hash without a Salt
+
+================================================================================
+Improper Restriction of Operations within the Bounds of a Memory Buffer
+1 Improper Restriction of Operations within the Bounds of a Memory Buffer
+2	Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+3	Improper Input Validation
+4	Information Exposure
+5	Out-of-bounds Read
+6	Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+7	Use After Free
+8	Integer Overflow or Wraparound
+9	Cross-Site Request Forgery (CSRF)
+10	Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+11	Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+12	Out-of-bounds Write
+13	Improper Authentication
+14	NULL Pointer Dereference
+15	Incorrect Permission Assignment for Critical Resource
+16	Unrestricted Upload of File with Dangerous Type
+17	Improper Restriction of XML External Entity Reference
+18	Improper Control of Generation of Code ('Code Injection')
+19	Use of Hard-coded Credentials
+20	Uncontrolled Resource Consumption
+21	Missing Release of Resource after Effective Lifetime
+22	Untrusted Search Path
+23	Deserialization of Untrusted Data
+24	Improper Privilege Management
+25	Improper Certificate Validation
+
+
+Reference:  https://www.sans.org/top25-software-errors/
